@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*
+----------------------------
+Fonts
+-----------------------------
+*/
+@font-face {
+    font-family: "DMSerifDisplay";
+        src: url('../fonts/DMSerifDisplay-Italic.ttf')  format('truetype'), 
+             url('../fonts/DMSerifDisplay-Italic.woff') format('woff'), 
+             url('../fonts/DMSerifDisplay-Italic.woff2') format('woff2'); 
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "DMSerifDisplay";
+        src: url('../fonts/DMSerifDisplay-Regular.ttf')  format('truetype'), 
+             url('../fonts/DMSerifDisplay-Regular.woff') format('woff'), 
+             url('../fonts/DMSerifDisplay-Regular.woff2') format('woff2'); 
+    font-weight: 400;
+    font-display: swap;
+}

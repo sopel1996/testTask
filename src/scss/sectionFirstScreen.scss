@@ -1,0 +1,49 @@
+.firstScreen{
+    background: url(../img/svg/firstScreenBg.svg) 0 0/contain no-repeat;
+    height: 800px;
+    position: relative;
+    // overflow-y: hidden;
+    .sectionInner{
+
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &_logo{
+        margin: 0 250px 0 0;
+    }
+    &Nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        &_item{
+            margin: 0 70px 0 0;
+            text-transform: uppercase;
+            &:last-child{
+                margin: 0;
+            }
+        }
+    }
+        .btn{}
+    .contactUs{}
+    h1{}
+    .carImg{
+        width: 560px;
+        height: auto;
+        position: absolute;
+        left: -5%;
+        bottom: -200px;
+
+    }
+    .peopleImg{
+        position: absolute;
+        width: 300px;
+        height: auto;
+        left: 650px;
+        bottom: -20px;
+    }
+}
